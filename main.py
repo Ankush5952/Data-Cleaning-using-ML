@@ -34,6 +34,7 @@ def run_pipeline(
     output_path: Path,
     window_days: int = 7,
     standard_deviations: float = 3.0,
+    show_metrics: bool = False,
 ) -> pd.DataFrame:
     """Clean, classify, flag, and export invoice data."""
     cleaned_data = clean_invoices(raw_data)
@@ -43,20 +44,27 @@ def run_pipeline(
         window_days=window_days,
         standard_deviations=standard_deviations,
     )
+    if not show_metrics:
+        final_data = final_data.drop(columns=["Is_Duplicate", "Is_Anomaly"])
     output_path.parent.mkdir(parents=True, exist_ok=True)
     final_data.to_csv(output_path, index=False, date_format="%Y-%m-%d")
     return final_data
 
 
-def print_summary(raw_rows: int, final_data: pd.DataFrame) -> None:
+def print_summary(
+    raw_rows: int,
+    final_data: pd.DataFrame,
+    show_metrics: bool,
+) -> None:
     """Print a concise report for the completed pipeline."""
     print("\nInvoice processing summary")
     print("--------------------------")
     print(f"Input rows:       {raw_rows}")
     print(f"Output rows:      {len(final_data)}")
     print(f"Removed rows:     {raw_rows - len(final_data)}")
-    print(f"Duplicates:       {int(final_data['Is_Duplicate'].sum())}")
-    print(f"Anomalies:        {int(final_data['Is_Anomaly'].sum())}")
+    if show_metrics:
+        print(f"Duplicates:       {int(final_data['Is_Duplicate'].sum())}")
+        print(f"Anomalies:        {int(final_data['Is_Anomaly'].sum())}")
     print("\nCategories:")
     print(final_data["Category"].value_counts().sort_index().to_string())
 
@@ -91,6 +99,12 @@ def main() -> None:
         default=3.0,
         help="Anomaly threshold above category mean (default: 3)",
     )
+    parser.add_argument(
+        "--show_metrics",
+        "--smc",
+        action="store_true",
+        help="Include duplicate and anomaly metrics in the output (default: hidden)",
+    )
     args = parser.parse_args()
 
     raw_data = ensure_input_file(args.input)
@@ -99,8 +113,9 @@ def main() -> None:
         output_path=args.output,
         window_days=args.th, 
         standard_deviations=args.sd,
+        show_metrics=args.show_metrics,
     )
-    print_summary(len(raw_data), final_data)
+    print_summary(len(raw_data), final_data, args.show_metrics)
     print(f"\nWrote final report to {args.output}")
 
 
