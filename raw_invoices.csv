@@ -1,0 +1,354 @@
+Invoice_ID, Transaction_Date, Vendor                       , Amount , Description              , Payment_Method
+INV-00220 , 11-Feb-2025     , COMCAST *9BB961              ,   31.6 , Utilities purchase       , Corporate Card
+INV-00043 , 2025-07-28      , POS-LYFT-7C52FA              ,   27.79, Travel/Transport purchase, ACH
+INV-00212 , 2025-03-16      , SLACK *FCCE96                ,   62.68, SaaS/Cloud purchase      , 
+INV-00194 , 2025-05-12      , POS-OFFICE DEPOT-E9FF1C      ,   13.33, Office Supplies purchase , Wire
+INV-00057 , 2025-03-10      , STAPLES_43B409               ,   17.37, Office Supplies purchase , Corporate Card
+INV-00180 , 2025-12-16      , AT&T *2B840C                 ,  175.58, Utilities purchase       , Corporate Card
+INV-00016 , 2025-06-11      , POS-SHELL-366EB1             ,   20.79, Travel/Transport purchase, Corporate Card
+INV-00058 , 2025-05-25      , DELTA AIRLINES *9AD620       ,   24.51, Travel/Transport purchase, Wire
+INV-00140 , 2025-02-20      , GITHUB *A021C0               ,   13.46, SaaS/Cloud purchase      , Wire
+INV-00149 , 2025-06-15      , Dropbox #0149                ,   42.07, SaaS/Cloud purchase      , Corporate Card
+INV-00095 , 2025-02-11      , TARGET *236C7B               ,   23.22, Office Supplies purchase , ACH
+INV-00091 , 2025-11-10      , POS-WALMART-D0A444           ,   31.92, Office Supplies purchase , 
+INV-00127 , 2025-10-09      , Walmart #0127                ,   15.74, Office Supplies purchase , Corporate Card
+INV-00209 , 2025-01-11      , Shell #0209                  ,   41.88, Travel/Transport purchase, ACH
+INV-00117 , 2025-04-01      , Airbnb #0117                 ,   29.3 , Travel/Transport purchase, 
+INV-00156 , 2025-03-01      , POS-AMAZON MARKETPLACE-F85E06,   18.83, Office Supplies purchase , 
+INV-00079 , 2025-12-23      , WALMART *4BB00F              ,   31.81, Office Supplies purchase , ACH
+INV-00348 , 2025-08-09      , Aws #0348                    ,   12.0 , SaaS/Cloud purchase      , Wire
+INV-00138 , 2025-11-02      , AT&T *CA6DFD                 ,   24.3 , Utilities purchase       , 
+INV-00272 , 2025-07-05      , STAPLES *4F11D8              ,   11.78, Office Supplies purchase , ACH
+INV-00146 , 2025-01-31      , Uber #0146                   ,   49.81, Travel/Transport purchase, 
+INV-00243 , 2025-11-03      , AIRBNB_0E0630                ,   41.61, Travel/Transport purchase, ACH
+INV-00284 , 2025-06-28      , AIRBNB_EE3368                ,   13.4 , Travel/Transport purchase, Corporate Card
+INV-00034 , 2025-04-28      , AWS_114125                   ,   15.07, SaaS/Cloud purchase      , Wire
+INV-00158 , 2025-09-13      , POS-TARGET-A01AC9            ,   40.77, Office Supplies purchase , Corporate Card
+INV-00085 , 2025-04-26      , DELTA AIRLINES *CE7AE7       ,   17.72, Travel/Transport purchase, ACH
+INV-00120 ,                 , At&T #0120                   ,   48.85, Utilities purchase       , Corporate Card
+INV-00319 , 2025-02-07      , MICROSOFT AZURE *73B911      ,   36.99, SaaS/Cloud purchase      , Corporate Card
+INV-00026 , 2025-10-04      , OFFICE DEPOT_F4188F          ,   32.2 , Office Supplies purchase , 
+INV-00074 , 2025-08-11      , Github #0074                 ,   82.85, SaaS/Cloud purchase      , Corporate Card
+INV-00133 , 2025-11-23      , POS-OFFICE DEPOT-DE5379      ,   15.02, Office Supplies purchase , Corporate Card
+INV-00010 ,                 , Uber #0010                   ,   42.63, Travel/Transport purchase, Corporate Card
+INV-00338 , 2025-08-26      , City Water #0338             ,   24.32, Utilities purchase       , 
+INV-00141 , 2025-05-03      , MICROSOFT AZURE_2C7F0B       ,  868.5 , SaaS/Cloud purchase      , ACH
+INV-00111 , 2025-11-07      , SHELL_F6B751                 ,    8.61, Travel/Transport purchase, ACH
+INV-00040 , not-a-date      , POS-LYFT-23E2FC              ,   34.05, Travel/Transport purchase, ACH
+INV-00023 , 2025-02-27      , POS-AMAZON MARKETPLACE-4B22D3,   31.31, Office Supplies purchase , ACH
+INV-00181 , 2025-12-16      , POS-AT&T-3DA705              ,   45.0 , Utilities purchase       , 
+INV-00094 , 2025-05-27      , Comcast #0094                ,  605.5 , Utilities purchase       , Wire
+INV-00159 , 2025-10-09      , Delta Airlines #0159         ,   13.81, Travel/Transport purchase, Corporate Card
+INV-00177 , 2025-02-20      , DROPBOX_C2A796               ,   30.22, SaaS/Cloud purchase      , Corporate Card
+INV-00031 , 2025-07-24      , Delta Airlines #0031         ,   20.26, Travel/Transport purchase, Corporate Card
+INV-00301 , 2025-09-21      , POS-AMAZON MARKETPLACE-65F202,   17.48, Office Supplies purchase , Wire
+INV-00298 , 2025-01-23      , Office Depot #0298           ,   36.59, Office Supplies purchase , ACH
+INV-00119 , 2025-05-23      , POS-UBER-E1B294              ,   62.98, Travel/Transport purchase, ACH
+INV-00341 , 2025-05-17      , COMCAST *7318B9              ,   17.56, Utilities purchase       , ACH
+INV-00056 , 2025-12-01      , TARGET_8768A8                ,   54.89, Office Supplies purchase , 
+INV-00006 , 2025-04-21      , Office Depot #0006           ,   25.73, Office Supplies purchase , Corporate Card
+INV-00046 , 2025-04-22      , DELTA AIRLINES_F7FD56        ,   18.77, Travel/Transport purchase, 
+INV-00226 , 2025-02-04      , AIRBNB_175A81                ,   60.81, Travel/Transport purchase, Corporate Card
+INV-00275 , 2025-07-12      , SHELL *277D1B                ,   15.83, Travel/Transport purchase, ACH
+INV-00266 , 2025-07-18      , Amazon Marketplace #0266     ,   13.32, Office Supplies purchase , 
+INV-00233 , 2025-12-03      , Github #0233                 ,   30.86, SaaS/Cloud purchase      , Corporate Card
+INV-00078 , 2025-06-03      , Staples #0078                ,   24.67, Office Supplies purchase , Corporate Card
+INV-00327 , 2025-06-26      , AT&T *20DA89                 ,   63.61, Utilities purchase       , ACH
+INV-00199 , 2025-01-13      , Airbnb #0199                 ,   31.12, Travel/Transport purchase, 
+INV-00004 , 2025-08-03      , POS-SHELL-386ECB             ,   80.64, Travel/Transport purchase, 
+INV-00114 , 2025-03-03      , TARGET_CBD58B                ,  148.58, Office Supplies purchase , Wire
+INV-00076 , 2025-09-24      , COMCAST *ECF27E              ,   51.12, Utilities purchase       , Wire
+INV-00318 , 2025-05-27      , POS-SHELL-B1A8B7             ,   24.49, Travel/Transport purchase, ACH
+INV-00064 , 2025-06-07      , UBER_5D59CD                  ,   13.77, Travel/Transport purchase, Wire
+INV-00047 , 2025-01-30      , POS-SLACK-0CD620             ,  555.25, SaaS/Cloud purchase      , 
+INV-00238 , 2025-06-16      , AMAZON MARKETPLACE_C6DEB2    ,   33.82, Office Supplies purchase , Corporate Card
+INV-00077 , 2025-12-07      , Comcast #0077                ,   31.71, Utilities purchase       , 
+INV-00073 , 2025-10-25      , Office Depot #0073           ,   29.27, Office Supplies purchase , Corporate Card
+INV-00286 , 2025-04-25      , Slack #0286                  ,    8.42, SaaS/Cloud purchase      , Corporate Card
+INV-00268 , 2025-05-10      , DUKE ENERGY *B9469B          ,   11.83, Utilities purchase       , Wire
+INV-00195 , 2025-08-28      , STAPLES_F6802C               ,   33.53, Office Supplies purchase , ACH
+INV-00168 , 2025-09-05      , At&T #0168                   ,  102.81, Utilities purchase       , 
+INV-00332 , 2025-10-25      , SHELL *277946                ,   16.72, Travel/Transport purchase, 
+INV-00210 , 04/16/2025      , SHELL *D46EF1                ,  366.6 , Travel/Transport purchase, 
+INV-00102 , 2025-03-26      , POS-WALMART-D72B61           ,   22.8 , Office Supplies purchase , ACH
+INV-00203 , 2025-12-10      , POS-DUKE ENERGY-F30A9E       ,   60.58, Utilities purchase       , 
+INV-00330 , 05/26/2025      , TARGET *4027AB               ,   45.08, Office Supplies purchase , 
+INV-00182 , 2025-08-25      , Lyft #0182                   ,   17.16, Travel/Transport purchase, Corporate Card
+INV-00083 , 2025-12-12      , POS-CITY WATER-36B522        ,   78.31, Utilities purchase       , ACH
+INV-00336 , 2025-09-05      , POS-AMAZON MARKETPLACE-3EB051,   27.23, Office Supplies purchase , Wire
+INV-00017 , 2025-05-16      , VERIZON *23BED0              ,   15.51, Utilities purchase       , 
+INV-00067 , 2025-01-13      , Airbnb #0067                 ,   28.59, Travel/Transport purchase, Corporate Card
+INV-00184 , 2025-08-15      , Uber #0184                   ,   41.0 , Travel/Transport purchase, 
+INV-00008 , 2025-08-24      , STAPLES_89463E               ,   49.34, Office Supplies purchase , Corporate Card
+INV-00110 , not-a-date      , Github #0110                 ,   28.55, SaaS/Cloud purchase      , Wire
+INV-00125 , 2025-02-17      , COMCAST *4B5305              ,   43.88, Utilities purchase       , Corporate Card
+INV-00343 , 2025-03-23      , Verizon #0343                ,   35.14, Utilities purchase       , 
+INV-00310 ,                 , DUKE ENERGY *ADEDDA          ,   26.27, Utilities purchase       , Corporate Card
+INV-00342 , 2025-05-29      , POS-AWS-F204BE               ,   35.11, SaaS/Cloud purchase      , 
+INV-00333 , 2025-01-22      , TARGET_D342AF                ,   31.48, Office Supplies purchase , Corporate Card
+INV-00350 , 11-Oct-2025     , POS-DELTA AIRLINES-12D2FA    ,   26.08, Travel/Transport purchase, 
+INV-00308 , 2025-08-17      , Duke Energy #0308            ,   20.4 , Utilities purchase       , 
+INV-00061 , 2025-08-15      , POS-OFFICE DEPOT-8D3AED      ,   21.94, Office Supplies purchase , 
+INV-00263 , 2025-03-19      , AT&T_F52D4A                  ,    3.64, Utilities purchase       , Corporate Card
+INV-00282 , 2025-02-12      , SLACK *C35B9F                , 1152.0 , SaaS/Cloud purchase      , Wire
+INV-00247 , 2025-07-23      , STAPLES_DC9C96               ,   22.01, Office Supplies purchase , Corporate Card
+INV-00254 , 2025-06-29      , DELTA AIRLINES *BA3584       ,   58.62, Travel/Transport purchase, ACH
+INV-00279 , 2025-05-25      , POS-CITY WATER-C73323        ,   31.35, Utilities purchase       , 
+INV-00018 , 2025-08-08      ,                              ,   36.75, Office Supplies purchase , Wire
+INV-00148 , 2025-10-04      , POS-TARGET-7E695D            ,   12.7 , Office Supplies purchase , Corporate Card
+INV-00025 , 2025-11-24      , SLACK *81F631                ,   21.03, SaaS/Cloud purchase      , ACH
+INV-00311 , 2025-12-14      , POS-SHELL-C8040F             ,   26.01, Travel/Transport purchase, Corporate Card
+INV-00115 , 2025-02-05      , Duke Energy #0115            ,   26.44, Utilities purchase       , Corporate Card
+INV-00204 , 2025-12-02      , POS-AIRBNB-19597B            ,   59.44, Travel/Transport purchase, 
+INV-00154 , 2025-07-30      , POS-DELTA AIRLINES-B19499    ,   34.85, Travel/Transport purchase, Wire
+INV-00221 , 2025-11-16      , Delta Airlines #0221         ,  134.9 , Travel/Transport purchase, Corporate Card
+INV-00352 , 2025-07-28      , POS-LYFT-7C52FA              ,   27.79, Travel/Transport purchase, ACH
+INV-00262 , 2025-10-20      , DROPBOX *A6DED1              ,   28.83, SaaS/Cloud purchase      , Wire
+INV-00109 , 2025-03-20      , GITHUB *3D1148               ,   35.42, SaaS/Cloud purchase      , Corporate Card
+INV-00267 , 2025-02-03      , SLACK_54669D                 ,   86.58, SaaS/Cloud purchase      , 
+INV-00164 , 2025-05-05      , CITY WATER *74EFF5           ,   17.58, Utilities purchase       , Corporate Card
+INV-00153 , 2025-07-29      , Duke Energy #0153            ,   19.26, Utilities purchase       , Corporate Card
+INV-00020 , 2025-11-18      , POS-MICROSOFT AZURE-CAC5B6   ,   11.97, SaaS/Cloud purchase      , 
+INV-00224 , 2025-08-21      , POS-DUKE ENERGY-66132E       ,   10.5 , Utilities purchase       , Corporate Card
+INV-00080 ,                 , CITY WATER *E71E43           ,    8.23, Utilities purchase       , 
+INV-00345 , 2025-01-12      , POS-WALMART-170D75           ,   22.06, Office Supplies purchase , 
+INV-00019 , 2025-09-18      , LYFT_7E570D                  ,   16.61, Travel/Transport purchase, Corporate Card
+INV-00250 , 11-Jan-2025     , POS-DROPBOX-2BFFE1           ,   38.99, SaaS/Cloud purchase      , Wire
+INV-00105 , 2025-04-19      , Duke Energy #0105            ,   26.98, Utilities purchase       , Wire
+INV-00312 , 2025-05-01      , Uber #0312                   ,   61.2 , Travel/Transport purchase, Wire
+INV-00032 , 2025-05-07      , COMCAST_3985C3               ,   99.88, Utilities purchase       , Wire
+INV-00037 , 2025-02-18      , POS-VERIZON-18D075           ,   34.32, Utilities purchase       , Wire
+INV-00183 , 2025-08-27      , Staples #0183                ,   14.94, Office Supplies purchase , 
+INV-00248 , 2025-02-09      , Dropbox #0248                ,   19.6 , SaaS/Cloud purchase      , 
+INV-00297 , 2025-02-04      , SLACK *5844F9                ,   53.77, SaaS/Cloud purchase      , Corporate Card
+INV-00245 , 2025-01-04      , POS-STAPLES-7F54A5           ,   13.73, Office Supplies purchase , ACH
+INV-00166 , 2025-06-24      , Walmart #0166                ,   39.19, Office Supplies purchase , Corporate Card
+INV-00313 , 2025-01-17      , AT&T *9AE77E                 ,   51.24, Utilities purchase       , Corporate Card
+INV-00060 , 05/22/2025      , Dropbox #0060                ,   56.49, SaaS/Cloud purchase      , ACH
+INV-00225 , 2025-06-10      , Walmart #0225                ,   22.05, Office Supplies purchase , Wire
+INV-00251 , 2025-02-24      , POS-DROPBOX-3E49FD           ,   13.2 , SaaS/Cloud purchase      , 
+INV-00112 , 2025-10-24      , Staples #0112                ,   29.45, Office Supplies purchase , 
+INV-00337 , 2025-12-19      , COMCAST *0F5675              ,   17.52, Utilities purchase       , Corporate Card
+INV-00007 , 2025-02-19      , Dropbox #0007                ,   83.64, SaaS/Cloud purchase      , 
+INV-00257 , 2025-11-26      , At&T #0257                   ,   68.27, Utilities purchase       , Wire
+INV-00235 , 2025-04-03      , STAPLES *DEAF52              , 3018.25, Office Supplies purchase , 
+INV-00011 , 2025-07-14      , POS-UBER-472947              ,   22.17, Travel/Transport purchase, Wire
+INV-00293 , 2025-05-30      , LYFT_6DE299                  ,   20.43, Travel/Transport purchase, 
+INV-00255 , 2025-05-12      , MICROSOFT AZURE *328067      ,   11.16, SaaS/Cloud purchase      , 
+INV-00082 , 2025-08-09      , Office Depot #0082           ,   37.79, Office Supplies purchase , Corporate Card
+INV-00174 , 2025-06-23      , POS-DUKE ENERGY-9F8DED       ,   37.4 , Utilities purchase       , Corporate Card
+INV-00200 , not-a-date      , Uber #0200                   ,   14.25, Travel/Transport purchase, Corporate Card
+INV-00176 , 2025-02-05      , Github #0176                 ,   51.3 , SaaS/Cloud purchase      , ACH
+INV-00232 , 2025-04-26      , POS-TARGET-CEA60F            ,   34.49, Office Supplies purchase , 
+INV-00328 , 2025-01-29      , AT&T_D4D607                  ,   50.13, Utilities purchase       , 
+INV-00296 , 2025-11-22      , Comcast #0296                ,   19.1 , Utilities purchase       , Wire
+INV-00093 , 2025-09-06      , TARGET *A07295               ,   18.99, Office Supplies purchase , Wire
+INV-00070 , 04/25/2025      , OFFICE DEPOT *A8F7EF         ,   19.7 , Office Supplies purchase , Corporate Card
+INV-00234 , 2025-12-26      , Delta Airlines #0234         ,   19.62, Travel/Transport purchase, Wire
+INV-00097 , 2025-10-05      , POS-DUKE ENERGY-7746D0       ,   36.32, Utilities purchase       , Corporate Card
+INV-00144 , 2025-05-16      , MICROSOFT AZURE *C9AF18      ,   33.78, SaaS/Cloud purchase      , Corporate Card
+INV-00291 , 2025-11-24      , POS-AIRBNB-CB3CF8            ,   26.17, Travel/Transport purchase, Corporate Card
+INV-00098 , 2025-07-19      , AIRBNB_E7A37E                ,   35.51, Travel/Transport purchase, 
+INV-00334 , 2025-05-16      , GITHUB *A6B074               ,   19.29, SaaS/Cloud purchase      , 
+INV-00069 , 2025-04-24      , POS-DROPBOX-331734           ,   37.9 , SaaS/Cloud purchase      , Wire
+INV-00024 , 2025-05-15      , COMCAST *F8CDA8              ,   11.87, Utilities purchase       , 
+INV-00038 , 2025-08-28      , CITY WATER_DD2467            ,    8.38, Utilities purchase       , Corporate Card
+INV-00145 , 2025-04-26      , GITHUB *A5CB63               ,   35.48, SaaS/Cloud purchase      , Wire
+INV-00123 , 2025-04-08      , GITHUB *15EABB               ,   74.58, SaaS/Cloud purchase      , Corporate Card
+INV-00068 , 2025-03-23      , DELTA AIRLINES_C99160        ,   57.53, Travel/Transport purchase, Corporate Card
+INV-00283 , 2025-03-17      , POS-AT&T-D4BF7A              ,   84.01, Utilities purchase       , Corporate Card
+INV-00186 , 2025-09-05      , AIRBNB *1B4DA0               ,   47.66, Travel/Transport purchase, Corporate Card
+INV-00126 , 2025-12-06      , Delta Airlines #0126         ,  124.44, Travel/Transport purchase, Corporate Card
+INV-00147 , 2025-03-05      , Walmart #0147                ,   13.41, Office Supplies purchase , Corporate Card
+INV-00197 , 2025-10-02      , POS-SLACK-1FA382             ,   16.87, SaaS/Cloud purchase      , Wire
+INV-00087 , 2025-08-01      , DROPBOX *E2D9DE              ,   54.33, SaaS/Cloud purchase      , Corporate Card
+INV-00299 , 2025-11-20      , CITY WATER *2EA9C5           ,   50.82, Utilities purchase       , Corporate Card
+INV-00173 , 2025-12-02      , AIRBNB *F84F16               ,   28.5 , Travel/Transport purchase, Corporate Card
+INV-00300 , 2025-05-31      , COMCAST *0B36E3              ,   45.12, Utilities purchase       , Corporate Card
+INV-00169 , 2025-06-14      , CITY WATER *DE9E37           ,   25.55, Utilities purchase       , ACH
+INV-00269 , 2025-12-06      , Github #0269                 ,   22.51, SaaS/Cloud purchase      , Wire
+INV-00223 , 2025-04-21      , POS-GITHUB-6E1910            ,   46.81, SaaS/Cloud purchase      , ACH
+INV-00249 , 2025-07-27      , POS-AT&T-B5A1B9              ,   94.4 , Utilities purchase       , Wire
+INV-00178 , 2025-01-15      , Delta Airlines #0178         ,   77.08, Travel/Transport purchase, Corporate Card
+INV-00246 , 2025-09-30      , AIRBNB *B423CC               ,   24.11, Travel/Transport purchase, 
+INV-00130 ,                 , Airbnb #0130                 ,   21.6 , Travel/Transport purchase, Corporate Card
+INV-00039 , 2025-06-23      , DROPBOX_CCF3A1               ,   12.64, SaaS/Cloud purchase      , ACH
+INV-00012 , 2025-07-01      , Delta Airlines #0012         ,   22.14, Travel/Transport purchase, Corporate Card
+INV-00229 , 2025-12-07      , POS-DUKE ENERGY-F0EDE3       ,   18.82, Utilities purchase       , Corporate Card
+INV-00281 , 2025-10-11      , DUKE ENERGY_EF2DDC           ,   32.26, Utilities purchase       , 
+INV-00113 , 2025-04-12      , CITY WATER *137481           ,   31.16, Utilities purchase       , Corporate Card
+INV-00228 , 2025-10-15      , Github #0228                 ,   14.87, SaaS/Cloud purchase      , Corporate Card
+INV-00329 , 2025-03-26      , Delta Airlines #0329         , 1124.0 , Travel/Transport purchase, ACH
+INV-00118 , 2025-08-12      , City Water #0118             ,   14.02, Utilities purchase       , Wire
+INV-00326 , 2025-06-12      , MICROSOFT AZURE_A4704D       ,   13.61, SaaS/Cloud purchase      , Corporate Card
+INV-00340 , 2025/99/99      , Delta Airlines #0340         ,   20.77, Travel/Transport purchase, ACH
+INV-00256 , 2025-04-01      , POS-UBER-F387E1              ,   21.87, Travel/Transport purchase, Corporate Card
+INV-00320 , 08-Dec-2025     , SLACK_B5A472                 ,   27.53, SaaS/Cloud purchase      , 
+INV-00165 , 2025-09-18      , SHELL *BF0D07                ,   56.05, Travel/Transport purchase, Corporate Card
+INV-00211 , 2025-06-18      , LYFT *C63D04                 ,   43.43, Travel/Transport purchase, 
+INV-00239 , 2025-11-13      , LYFT_0CBD3C                  ,   19.49, Travel/Transport purchase, Wire
+INV-00155 , 2025-01-19      , AT&T_746F78                  ,   36.25, Utilities purchase       , Wire
+INV-00241 , 2025-02-28      , POS-SHELL-585D3F             ,   17.9 , Travel/Transport purchase, Corporate Card
+INV-00003 , 2025-04-22      , AWS_3B8FAA                   ,   45.65, SaaS/Cloud purchase      , 
+INV-00116 , 2025-02-24      , City Water #0116             ,   36.45, Utilities purchase       , Corporate Card
+INV-00196 , 2025-10-13      , AIRBNB_5DA36F                ,   38.49, Travel/Transport purchase, Corporate Card
+INV-00198 , 2025-07-15      , Target #0198                 ,   33.11, Office Supplies purchase , Corporate Card
+INV-00240 , 2025/99/99      , POS-CITY WATER-7129CE        ,   52.15, Utilities purchase       , Wire
+INV-00121 , 2025-04-04      , DUKE ENERGY *7CD012          ,   50.11, Utilities purchase       , Wire
+INV-00273 , 2025-04-09      , WALMART *39FEB9              ,   63.82, Office Supplies purchase , ACH
+INV-00292 , 2025-11-02      , DROPBOX_893AD2               ,   21.75, SaaS/Cloud purchase      , 
+INV-00306 , 2025-05-31      , SHELL_523AE9                 ,   32.34, Travel/Transport purchase, Corporate Card
+INV-00128 , 2025-05-09      , AMAZON MARKETPLACE_3B048A    ,   20.74, Office Supplies purchase , ACH
+INV-00075 , 2025-10-23      , Dropbox #0075                ,    5.46, SaaS/Cloud purchase      , Corporate Card
+INV-00287 , 2025-03-12      , Office Depot #0287           ,   27.15, Office Supplies purchase , Corporate Card
+INV-00030 , 26-Mar-2025     , POS-AT&T-8715A1              ,   24.79, Utilities purchase       , ACH
+INV-00084 , 2025-09-21      , Slack #0084                  ,        , SaaS/Cloud purchase      , Corporate Card
+INV-00335 , 2025-11-24      , POS-AT&T-07C0D1              ,   56.48, Utilities purchase       , 
+INV-00108 , 2025-01-16      , AWS *F319C1                  ,   33.56, SaaS/Cloud purchase      , ACH
+INV-00285 , 2025-09-15      , DROPBOX *5FBBF0              ,  119.88, SaaS/Cloud purchase      , Corporate Card
+INV-00289 , 2025-04-21      , SLACK *D5C024                ,   35.97, SaaS/Cloud purchase      , 
+INV-00134 , 2025-05-26      , POS-GITHUB-782A65            ,   40.77, SaaS/Cloud purchase      , Corporate Card
+INV-00185 , 2025-12-20      , POS-WALMART-40066F           ,   25.91, Office Supplies purchase , Wire
+INV-00259 , 2025-01-29      , TARGET_5A18E2                ,   39.98, Office Supplies purchase , Wire
+INV-00045 , 2025-05-27      , POS-WALMART-6C4A37           ,   11.46, Office Supplies purchase , ACH
+INV-00325 , 2025-07-30      , POS-AT&T-C4E7F7              ,   15.58, Utilities purchase       , 
+INV-00066 , 2025-03-21      , AT&T *ECFEDB                 ,   72.35, Utilities purchase       , ACH
+INV-00305 , 2025-08-06      , POS-STAPLES-14348F           ,   29.56, Office Supplies purchase , 
+INV-00086 , 2025-05-06      , POS-AWS-FBE33B               ,   21.63, SaaS/Cloud purchase      , 
+INV-00187 , 2025-06-01      , Target #0187                 ,   40.76, Office Supplies purchase , Corporate Card
+INV-00071 , 2025-02-05      , Amazon Marketplace #0071     ,   37.9 , Office Supplies purchase , Wire
+INV-00160 ,                 , COMCAST *9BDF03              ,   45.91, Utilities purchase       , ACH
+INV-00013 , 2025-05-06      , POS-SHELL-29D4BE             ,   35.07, Travel/Transport purchase, Corporate Card
+INV-00036 , 2025-10-23      , SHELL *7900F7                ,   13.55, Travel/Transport purchase, Corporate Card
+INV-00029 , 2025-09-30      , COMCAST *C40DB9              ,   20.28, Utilities purchase       , ACH
+INV-00171 , 2025-09-11      , VERIZON_F6FEBC               ,   16.81, Utilities purchase       , ACH
+INV-00143 , 2025-05-28      , Microsoft Azure #0143        ,   10.54, SaaS/Cloud purchase      , Corporate Card
+INV-00151 , 2025-08-29      , POS-MICROSOFT AZURE-84DAD0   ,   35.26, SaaS/Cloud purchase      , Wire
+INV-00222 , 2025-09-16      , POS-WALMART-9AFD40           ,    8.9 , Office Supplies purchase , Corporate Card
+INV-00132 , 2025-03-06      , GITHUB_463944                ,   31.33, SaaS/Cloud purchase      , Corporate Card
+INV-00230 , 09-Jun-2025     , TARGET *1A8591               ,   46.61, Office Supplies purchase , ACH
+INV-00052 , 2025-06-11      , WALMART_EDD425               ,   23.33, Office Supplies purchase , Corporate Card
+INV-00096 , 2025-12-28      , VERIZON_36C59D               ,   11.57, Utilities purchase       , Corporate Card
+INV-00290 , 2025-05-28      , COMCAST_4D183E               ,   19.99, Utilities purchase       , Corporate Card
+INV-00179 , 2025-07-11      , AMAZON MARKETPLACE *6E417D   ,   25.23, Office Supplies purchase , ACH
+INV-00205 , 2025-01-17      , Duke Energy #0205            ,   12.24, Utilities purchase       , ACH
+INV-00124 , 2025-05-04      , POS-AT&T-B0CBC6              ,   12.05, Utilities purchase       , Corporate Card
+INV-00042 , 2025-11-30      , AWS_FFD0F9                   ,   33.49, SaaS/Cloud purchase      , Corporate Card
+INV-00090 , 2025-08-22      , POS-UBER-CD29A3              ,   41.83, Travel/Transport purchase, 
+INV-00276 , 2025-01-23      , Airbnb #0276                 ,   40.46, Travel/Transport purchase, ACH
+INV-00207 , 2025-11-27      , TARGET_5BD20C                ,   41.88, Office Supplies purchase , Corporate Card
+INV-00137 , 2025-06-05      , SHELL *15CE6A                ,   18.01, Travel/Transport purchase, Corporate Card
+INV-00027 , 2025-01-10      , Walmart #0027                ,   14.18, Office Supplies purchase , Wire
+INV-00346 , 2025-04-21      , Verizon #0346                ,   34.84, Utilities purchase       , Corporate Card
+INV-00142 , 2025-08-19      , POS-DROPBOX-B07AA0           ,   70.08, SaaS/Cloud purchase      , Wire
+INV-00295 , 2025-09-27      , STAPLES_8B48F4               ,   37.79, Office Supplies purchase , Corporate Card
+INV-00005 , 2025-03-23      , POS-STAPLES-B2B943           ,   25.73, Office Supplies purchase , Wire
+INV-00001 , 2025-05-21      , AWS *3EB13B                  ,   41.38, SaaS/Cloud purchase      , ACH
+INV-00317 , 2025-03-02      , At&T #0317                   ,   46.68, Utilities purchase       , Corporate Card
+INV-00303 , 2025-07-08      , POS-STAPLES-6FDC0B           ,   48.7 , Office Supplies purchase , Corporate Card
+INV-00321 , 2025-03-22      , AMAZON MARKETPLACE *B6391F   ,   31.91, Office Supplies purchase , Wire
+INV-00101 , 2025-08-12      , DELTA AIRLINES_7C5308        ,   11.94, Travel/Transport purchase, Corporate Card
+INV-00227 , 2025-07-10      , COMCAST *CFD01C              ,   31.24, Utilities purchase       , 
+INV-00193 , 2025-10-04      , Lyft #0193                   ,   34.44, Travel/Transport purchase, 
+INV-00304 , 2025-04-06      , POS-DUKE ENERGY-7F072C       ,   44.56, Utilities purchase       , Wire
+INV-00219 , 2025-08-07      , CITY WATER_AFA415            ,   21.86, Utilities purchase       , Corporate Card
+INV-00214 , 2025-05-02      , Slack #0214                  ,   45.76, SaaS/Cloud purchase      , Corporate Card
+INV-00104 , 2025-08-25      , VERIZON_2E85CB               ,   17.79, Utilities purchase       , Wire
+INV-00172 , 2025-08-14      , POS-STAPLES-1986B4           ,   17.63, Office Supplies purchase , Corporate Card
+INV-00099 , 2025-01-04      , City Water #0099             ,   30.06, Utilities purchase       , Wire
+INV-00216 , 2025-09-01      , Aws #0216                    ,   49.07, SaaS/Cloud purchase      , 
+INV-00062 , 2025-02-08      , AWS *F1EEDB                  ,   26.56, SaaS/Cloud purchase      , 
+INV-00048 , 2025-09-18      , UBER *14822F                 ,   59.57, Travel/Transport purchase, Corporate Card
+INV-00033 , 2025-10-11      , GITHUB *3AE8CC               ,   29.7 , SaaS/Cloud purchase      , Corporate Card
+INV-00201 , 2025-01-24      , MICROSOFT AZURE_F23E32       ,   37.81, SaaS/Cloud purchase      , Wire
+INV-00315 , 2025-07-07      , Shell #0315                  ,   70.0 , Travel/Transport purchase, Wire
+INV-00028 , 2025-05-04      , UBER_E0C53C                  ,   38.25, Travel/Transport purchase, Corporate Card
+INV-00278 , 2025-08-29      , DELTA AIRLINES *E76ADC       ,   20.28, Travel/Transport purchase, Wire
+INV-00231 , 2025-02-25      , Verizon #0231                ,   18.64, Utilities purchase       , Corporate Card
+INV-00261 , 2025-11-01      , POS-GITHUB-81CF32            ,   16.4 , SaaS/Cloud purchase      , Corporate Card
+INV-00163 , 2025-09-18      , Duke Energy #0163            ,   63.63, Utilities purchase       , Corporate Card
+INV-00302 , 2025-05-27      , MICROSOFT AZURE_5B62A8       ,   20.82, SaaS/Cloud purchase      , Wire
+INV-00139 , 2025-08-15      , POS-CITY WATER-4C1F55        ,   50.85, Utilities purchase       , Wire
+INV-00063 , 2025-10-26      , SLACK *8D7248                ,   14.6 , SaaS/Cloud purchase      , Corporate Card
+INV-00136 , 2025-09-09      , DROPBOX_12F70C               ,   82.06, SaaS/Cloud purchase      , ACH
+INV-00129 , 2025-10-02      , STAPLES *F36CB6              ,   31.97, Office Supplies purchase , ACH
+INV-00009 , 2025-05-31      , Github #0009                 ,   22.08, SaaS/Cloud purchase      , 
+INV-00065 , 2025-12-08      , Lyft #0065                   ,   50.81, Travel/Transport purchase, 
+INV-00015 , 2025-06-11      , Uber #0015                   ,    9.76, Travel/Transport purchase, Corporate Card
+INV-00157 , 2025-08-25      , GITHUB_69CA97                ,  100.76, SaaS/Cloud purchase      , ACH
+INV-00041 , 2025-05-08      , WALMART_DFDE4F               ,   48.42, Office Supplies purchase , Corporate Card
+INV-00324 , 2025-02-14      , Shell #0324                  ,  116.75, Travel/Transport purchase, Corporate Card
+INV-00288 , 2025-08-18      , AIRBNB_9D8776                ,   43.92, Travel/Transport purchase, Corporate Card
+INV-00217 , 2025-09-15      , DROPBOX_38B77C               ,   18.13, SaaS/Cloud purchase      , 
+INV-00280 , 2025/99/99      , Verizon #0280                ,   23.33, Utilities purchase       , Corporate Card
+INV-00316 , 2025-01-14      , UBER *BC5530                 ,   30.38, Travel/Transport purchase, Corporate Card
+INV-00237 , 2025-08-03      , Airbnb #0237                 ,    8.03, Travel/Transport purchase, ACH
+INV-00208 , 2025-03-04      , POS-OFFICE DEPOT-F2F25E      ,   41.84, Office Supplies purchase , Corporate Card
+INV-00213 , 2025-02-26      , OFFICE DEPOT_A93B12          ,   55.71, Office Supplies purchase , ACH
+INV-00322 , 2025-04-13      , UBER *CAC4D0                 ,   44.12, Travel/Transport purchase, ACH
+INV-00252 , 2025-02-10      , At&T #0252                   ,   54.41, Utilities purchase       , Wire
+INV-00344 , 2025-03-23      , POS-OFFICE DEPOT-7F8E54      ,   21.55, Office Supplies purchase , Corporate Card
+INV-00323 , 2025-07-04      , Comcast #0323                ,   17.6 , Utilities purchase       , Corporate Card
+INV-00270 ,                 , VERIZON_F020E9               ,   32.62, Utilities purchase       , Wire
+INV-00202 , 2025-02-19      , COMCAST *3C1BDA              ,   43.14, Utilities purchase       , Corporate Card
+INV-00162 , 2025-08-25      , UBER_F27292                  ,   49.98, Travel/Transport purchase, ACH
+INV-00044 , 2025-03-26      , COMCAST_610461               ,   24.64, Utilities purchase       , Corporate Card
+INV-00218 , 2025-11-26      , WALMART_F6CA6B               ,   25.69, Office Supplies purchase , Corporate Card
+INV-00191 , 2025-08-14      , Slack #0191                  ,   22.42, SaaS/Cloud purchase      , ACH
+INV-00260 , 01/20/2025      , City Water #0260             ,   49.58, Utilities purchase       , Corporate Card
+INV-00106 , 2025-08-04      , DUKE ENERGY_4094DD           ,   38.96, Utilities purchase       , Corporate Card
+INV-00054 , 2025-05-16      , Shell #0054                  ,   44.59, Travel/Transport purchase, Corporate Card
+INV-00002 , 2025-02-14      , POS-GITHUB-972A84            ,   27.39, SaaS/Cloud purchase      , Corporate Card
+INV-00050 , not-a-date      , Github #0050                 ,    9.53, SaaS/Cloud purchase      , Wire
+INV-00081 , 2025-10-08      , WALMART_D56F03               ,   25.98, Office Supplies purchase , Wire
+INV-00206 , 2025-05-01      , City Water #0206             ,   16.29, Utilities purchase       , Corporate Card
+INV-00035 , 2025-05-02      , POS-GITHUB-474A49            ,   51.14, SaaS/Cloud purchase      , ACH
+INV-00264 , 2025-02-13      , SLACK *812A1F                ,   15.4 , SaaS/Cloud purchase      , Corporate Card
+INV-00092 , 2025-09-01      , Verizon #0092                ,   56.24, Utilities purchase       , ACH
+INV-00053 , 2025-10-16      , AT&T_FF002D                  ,   19.3 , Utilities purchase       , Corporate Card
+INV-00265 , 2025-08-13      , AIRBNB *86295B               ,   25.43, Travel/Transport purchase, Wire
+INV-00242 , 2025-09-07      , Target #0242                 ,   27.81, Office Supplies purchase , Corporate Card
+INV-00014 , 2025-04-23      , Target #0014                 ,    8.64, Office Supplies purchase , Corporate Card
+INV-00089 , 2025-04-01      , POS-VERIZON-CDDA24           ,   21.24, Utilities purchase       , Corporate Card
+INV-00274 , 2025-02-21      , SLACK_81F7F3                 ,   30.16, SaaS/Cloud purchase      , Wire
+INV-00167 , 2025-10-28      , POS-AMAZON MARKETPLACE-9475DB,   51.13, Office Supplies purchase , ACH
+INV-00347 , 2025-09-11      , POS-SLACK-98F6FD             ,   11.69, SaaS/Cloud purchase      , Wire
+INV-00135 , 2025-01-27      , POS-OFFICE DEPOT-40A26C      ,   16.48, Office Supplies purchase , Corporate Card
+INV-00307 , 2025-06-06      , POS-AMAZON MARKETPLACE-722789,   68.75, Office Supplies purchase , ACH
+INV-00339 , 2025-06-13      , Delta Airlines #0339         ,   39.19, Travel/Transport purchase, Corporate Card
+INV-00244 , 2025-03-12      , Office Depot #0244           ,   52.6 , Office Supplies purchase , Wire
+INV-00055 , 2025-05-26      , POS-DELTA AIRLINES-286218    ,   58.57, Travel/Transport purchase, 
+INV-00051 , 2025-05-03      , POS-DELTA AIRLINES-43FF50    ,   36.99, Travel/Transport purchase, ACH
+INV-00175 , 2025-07-14      , Target #0175                 ,   35.87, Office Supplies purchase , Corporate Card
+INV-00190 ,                 , SHELL *C16D83                ,   11.19, Travel/Transport purchase, Corporate Card
+INV-00351 , 2025-04-21      , Office Depot #0006           ,   25.73, Office Supplies purchase , Corporate Card
+INV-00188 , 2025-01-05      , DUKE ENERGY_90E0B9           ,  714.5 , Utilities purchase       , 
+INV-00170 , 07/30/2025      , POS-VERIZON-517400           ,   18.36, Utilities purchase       , Corporate Card
+INV-00059 , 2025-09-16      , Delta Airlines #0059         ,   37.16, Travel/Transport purchase, Corporate Card
+INV-00049 , 2025-07-26      , MICROSOFT AZURE *1EB0E3      ,   37.46, SaaS/Cloud purchase      , 
+INV-00236 , 2025-03-14      , COMCAST_BDB025               ,   45.24, Utilities purchase       , Corporate Card
+INV-00253 , 2025-03-28      , DELTA AIRLINES_138D99        ,  119.03, Travel/Transport purchase, 
+INV-00022 , 2025-01-06      , TARGET_AE270D                ,   25.87, Office Supplies purchase , 
+INV-00314 , 2025-08-16      , AMAZON MARKETPLACE_C35981    ,   50.84, Office Supplies purchase , 
+INV-00161 , 2025-01-08      , POS-TARGET-8D6059            ,   15.9 , Office Supplies purchase , Corporate Card
+INV-00277 , 2025-05-26      , POS-AT&T-C09CB5              ,   34.1 , Utilities purchase       , ACH
+INV-00192 , 2025-06-17      , POS-SLACK-BF5AE7             ,   52.28, SaaS/Cloud purchase      , ACH
+INV-00294 , 2025-10-20      , OFFICE DEPOT *6AA42C         ,   52.05, Office Supplies purchase , Corporate Card
+INV-00258 , 2025-02-04      , POS-AIRBNB-780B36            ,   18.92, Travel/Transport purchase, Wire
+INV-00309 , 2025-11-24      , DUKE ENERGY_FAE311           ,   42.76, Utilities purchase       , Corporate Card
+INV-00150 , 2025/99/99      , MICROSOFT AZURE_964DB0       ,   36.34, SaaS/Cloud purchase      , Wire
+INV-00131 , 2025-04-27      , DELTA AIRLINES *5C62B3       ,   10.94, Travel/Transport purchase, Wire
+INV-00152 , 2025-08-12      , POS-SHELL-A28140             ,   37.53, Travel/Transport purchase, Corporate Card
+INV-00100 ,                 , CITY WATER *BC10FA           ,   25.73, Utilities purchase       , Corporate Card
+INV-00088 , 2025-05-05      , CITY WATER_25C73C            ,   37.1 , Utilities purchase       , Corporate Card
+INV-00331 , 2025-11-17      , OFFICE DEPOT_4D85E9          ,   29.73, Office Supplies purchase , 
+INV-00215 , 2025-01-27      , POS-DELTA AIRLINES-20733F    ,   24.41, Travel/Transport purchase, 
+INV-00122 , 2025-05-24      , Amazon Marketplace #0122     ,   16.59, Office Supplies purchase , 
+INV-00353 , 2025-03-26      , POS-WALMART-D72B61           ,   22.8 , Office Supplies purchase , ACH
+INV-00021 , 2025-07-15      , POS-DROPBOX-988C24           ,   77.69, SaaS/Cloud purchase      , 
+INV-00189 , 2025-04-28      , Duke Energy #0189            ,   17.28, Utilities purchase       , ACH
+INV-00072 , 2025-06-19      , AT&T_F071D8                  ,   81.43, Utilities purchase       , Corporate Card
+INV-00107 , 2025-01-27      , Github #0107                 ,  102.11, SaaS/Cloud purchase      , ACH
+INV-00271 , 2025-03-07      , DUKE ENERGY_AB8CBF           ,   76.46, Utilities purchase       , Corporate Card
+INV-00349 , 2025-01-24      , DUKE ENERGY_668C84           ,   18.78, Utilities purchase       , 
+INV-00103 , 2025-10-31      , DROPBOX_907BFE               ,   23.98, SaaS/Cloud purchase      , Corporate Card
