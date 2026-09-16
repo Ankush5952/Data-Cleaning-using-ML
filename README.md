@@ -75,8 +75,15 @@ Install the dependencies:
 
 ```powershell
 python -m pip install pandas numpy scikit-learn
-
 ```
+
+Alternatively, use the interactive dependency checker:
+
+```powershell
+python .\setup_environment.py
+```
+
+The checker verifies whether NumPy, Pandas, and Scikit-Learn can be imported. If any are missing, it lists the packages and asks for confirmation before running `pip install -r requirements.txt`. Choosing `N` or pressing Enter leaves the environment unchanged.
 
 ## Quick start
 
