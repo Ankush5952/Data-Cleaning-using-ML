@@ -9,10 +9,10 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-from cleaner import clean_invoices
-from classifier import classify_invoices
-from generate_data import generate_rows
-from rules import apply_rules
+from pipeline.cleaner import clean_invoices
+from pipeline.classifier import classify_invoices
+from pipeline.generate_data import generate_rows
+from pipeline.rules import apply_rules
 
 
 def ensure_input_file(input_path: Path) -> pd.DataFrame:
@@ -77,15 +77,15 @@ def main() -> None:
         "-i",
         "--input",
         type=Path,
-        default=Path("raw_invoices.csv"),
-        help="Input CSV path (default: raw_invoices.csv)",
+        default=Path("input data/raw_invoices.csv"),
+        help="Input CSV path (default: input data/raw_invoices.csv)",
     )
     parser.add_argument(
         "-o",
         "--output",
         type=Path,
-        default=Path("cleaned_invoices.csv"),
-        help="Output CSV path (default: cleaned_invoices.csv)",
+        default=Path("output data/cleaned_invoices.csv"),
+        help="Output CSV path (default: output data/cleaned_invoices.csv)",
     )
     parser.add_argument(
         "--th", #threshold window

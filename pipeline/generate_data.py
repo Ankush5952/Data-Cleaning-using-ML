@@ -126,8 +126,8 @@ def main() -> None:
         "-o",
         "--output",
         type=Path,
-        default=Path("raw_invoices.csv"),
-        help="Output CSV path (default: raw_invoices.csv)",
+        default=Path("input data/raw_invoices.csv"),
+        help="Output CSV path (default: input data/raw_invoices.csv)",
     )
     parser.add_argument(
         "--rows",

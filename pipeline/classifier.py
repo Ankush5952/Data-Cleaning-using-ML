@@ -10,7 +10,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import Pipeline
 
-from cleaner import clean_invoices
+from .cleaner import clean_invoices
 
 
 SEED_EXAMPLES = pd.DataFrame(
@@ -105,15 +105,15 @@ def main() -> None:
         "-i",
         "--input",
         type=Path,
-        default=Path("raw_invoices.csv"),
-        help="Input CSV path (default: raw_invoices.csv)",
+        default=Path("input data/raw_invoices.csv"),
+        help="Input CSV path (default: input data/raw_invoices.csv)",
     )
     parser.add_argument(
         "-o",
         "--output",
         type=Path,
-        default=Path("classified_invoices.csv"),
-        help="Output CSV path (default: classified_invoices.csv)",
+        default=Path("output data/classified_invoices.csv"),
+        help="Output CSV path (default: output data/classified_invoices.csv)",
     )
     args = parser.parse_args()
 

@@ -1,3 +1,5 @@
-prompt.md
 *.csv
-__pycache__
+__pycache__/
+*.py[cod]
+.venv/
+.env

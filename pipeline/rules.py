@@ -7,8 +7,8 @@ from pathlib import Path
 
 import pandas as pd
 
-from cleaner import clean_invoices
-from classifier import classify_invoices
+from .cleaner import clean_invoices
+from .classifier import classify_invoices
 
 
 def flag_duplicates(
@@ -83,15 +83,15 @@ def main() -> None:
         "-i",
         "--input",
         type=Path,
-        default=Path("raw_invoices.csv"),
-        help="Input raw CSV path (default: raw_invoices.csv)",
+        default=Path("input data/raw_invoices.csv"),
+        help="Input raw CSV path (default: input data/raw_invoices.csv)",
     )
     parser.add_argument(
         "-o",
         "--output",
         type=Path,
-        default=Path("flagged_invoices.csv"),
-        help="Output CSV path (default: flagged_invoices.csv)",
+        default=Path("output data/flagged_invoices.csv"),
+        help="Output CSV path (default: output data/flagged_invoices.csv)",
     )
     parser.add_argument(
         "--window-days",

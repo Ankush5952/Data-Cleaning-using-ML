@@ -68,15 +68,15 @@ def main() -> None:
         "-i",
         "--input",
         type=Path,
-        default=Path("raw_invoices.csv"),
-        help="Input CSV path (default: raw_invoices.csv)",
+        default=Path("input data/raw_invoices.csv"),
+        help="Input CSV path (default: input data/raw_invoices.csv)",
     )
     parser.add_argument(
         "-o",
         "--output",
         type=Path,
-        default=Path("cleaned_invoices.csv"),
-        help="Output CSV path (default: cleaned_invoices.csv)",
+        default=Path("output data/cleaned_invoices.csv"),
+        help="Output CSV path (default: output data/cleaned_invoices.csv)",
     )
     args = parser.parse_args()
 

@@ -15,16 +15,16 @@ This project demonstrates practical data engineering and machine-learning techni
 ## Project workflow
 
 ```sh
-Raw Real World Data CSV
+input data/raw_invoices.csv
         |
         v
-    cleaner.py       Normalize dates, amounts, vendors, and missing values
+    pipeline/cleaner.py       Normalize dates, amounts, vendors, and missing values
         |
         v
-  classifier.py    Predict an expense category from the cleaned vendor text
+  pipeline/classifier.py    Predict an expense category from the cleaned vendor text
         |
         v
-     rules.py         Detect duplicates and unusually large category amounts(outliers)
+     pipeline/rules.py         Detect duplicates and unusually large category amounts(outliers)
         |
         v
      main.py          Run the full pipeline and export the final CSV
@@ -45,11 +45,14 @@ Raw Real World Data CSV
 
 | File | Purpose |
 | --- | --- |
-| `generate_data.py` | Generates synthetic, intentionally messy invoice data |
-| `cleaner.py` | Standardizes columns, dates, amounts, vendor names, and missing values |
-| `classifier.py` | Trains the seed text classifier and predicts expense categories |
-| `rules.py` | Applies duplicate and anomaly detection rules |
+| `pipeline/generate_data.py` | Generates synthetic, intentionally messy invoice data |
+| `pipeline/cleaner.py` | Standardizes columns, dates, amounts, vendor names, and missing values |
+| `pipeline/classifier.py` | Trains the seed text classifier and predicts expense categories |
+| `pipeline/rules.py` | Applies duplicate and anomaly detection rules |
 | `main.py` | Provides the end-to-end CLI |
+| `setup/requirements.txt` | Lists required Python packages |
+| `setup/setup_environment.py` | Checks and optionally installs dependencies |
+| `pipeline/prompt.md` | Original project requirements and learning blueprint |
 
 Generated CSV files are ignored by Git through `.gitignore`.
 
@@ -74,16 +77,16 @@ python -m venv .venv
 Install the dependencies:
 
 ```powershell
-python -m pip install pandas numpy scikit-learn
+python -m pip install -r .\setup\requirements.txt
 ```
 
 Alternatively, use the interactive dependency checker:
 
 ```powershell
-python .\setup_environment.py
+python .\setup\setup_environment.py
 ```
 
-The checker verifies whether NumPy, Pandas, and Scikit-Learn can be imported. If any are missing, it lists the packages and asks for confirmation before running `pip install -r requirements.txt`. Choosing `N` or pressing Enter leaves the environment unchanged.
+The checker verifies whether NumPy, Pandas, and Scikit-Learn can be imported. If any are missing, it lists the packages and asks for confirmation before running `pip install -r .\setup\requirements.txt`. Choosing `N` or pressing Enter leaves the environment unchanged.
 
 ## Quick start
 
@@ -96,12 +99,12 @@ python .\main.py
 
 The default behavior is:
 
-1. Look for `raw_invoices.csv`.
+1. Look for `input data/raw_invoices.csv`.
 2. If it does not exist, generate a fresh randomized test dataset.
 3. Clean and standardize the data.
 4. Predict one of four expense categories.
 5. Detect duplicates and anomalies internally.
-6. Write the result to `cleaned_invoices.csv`.
+6. Write the result to `output data/cleaned_invoices.csv`.
 7. Print a processing summary.
 
 The missing-input test feature creates the parent directories automatically. Existing input files are loaded without being overwritten. Each newly generated missing input uses a fresh random state, so repeated runs can produce different test data.
@@ -115,8 +118,8 @@ python .\main.py [OPTIONS]
 
 | Option | Default | Description |
 | --- | --- | --- |
-| `-i`, `--input` | `raw_invoices.csv` | Input CSV path |
-| `-o`, `--output` | `cleaned_invoices.csv` | Output CSV path |
+| `-i`, `--input` | `input data/raw_invoices.csv` | Input CSV path |
+| `-o`, `--output` | `output data/cleaned_invoices.csv` | Output CSV path |
 | `--th` | `7` | Duplicate matching window in days |
 | `--sd` | `3.0` | Standard-deviation threshold for anomalies |
 | `--show_metrics`, `--smc` | Disabled | Include `Is_Duplicate` and `Is_Anomaly` in the output |
@@ -125,8 +128,8 @@ Example with custom paths:
 
 ```powershell
 python .\main.py `
-  --input .\data\incoming.csv `
-  --output .\reports\cleaned_invoices.csv
+  --input ".\input data\incoming.csv" `
+  --output ".\output data\cleaned_invoices.csv"
 
 ```
 
@@ -134,8 +137,8 @@ Example with review metrics visible:
 
 ```powershell
 python .\main.py `
-  --input .\raw_invoices.csv `
-  --output .\reports\invoice_review.csv `
+  --input ".\input data\raw_invoices.csv" `
+  --output ".\output data\invoice_review.csv" `
   --th 14 `
   --sd 2.5 `
   --show_metrics
@@ -172,7 +175,7 @@ The terminal summary also reports duplicate and anomaly counts only when metrics
 To generate a raw dataset directly:
 
 ```powershell
-python .\generate_data.py
+python .\pipeline\generate_data.py
 
 ```
 
@@ -187,7 +190,7 @@ This creates approximately 200 base rows plus three duplicate records. The gener
 The generator is deterministic when called directly with its default seed:
 
 ```powershell
-python .\generate_data.py --seed 42
+python .\pipeline\generate_data.py --seed 42
 
 ```
 
@@ -195,7 +198,7 @@ The automatic missing-input path in `main.py` intentionally uses fresh randomnes
 
 ## Cleaning rules
 
-`cleaner.py`:
+`pipeline/cleaner.py`:
 
 - Strips whitespace from column names
 - Parses mixed date formats
